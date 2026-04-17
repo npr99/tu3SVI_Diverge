@@ -6,4 +6,4 @@ Project site: https://npr99.github.io/tu3SVI_Diverge/
 Repository structure:
 - `Posted/` contains the replication-facing notebooks and curated outputs.
 - `SourceData/` contains stable source inputs used during replication.
-- `WorkNPR/` is a working/output area and is ignored by Git.
+- `Work/` is a working/output area and is ignored by Git.
