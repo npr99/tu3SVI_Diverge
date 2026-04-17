@@ -13,11 +13,13 @@
 				"[python]": {
 					"editor.formatOnSave": false,
 					"editor.codeActionsOnSave": {
-						"source.organizeImports": true
+						"source.organizeImports": "explicit"
 					}
 				},
 				"jupyter.kernels.filter": [],
-				"notebook.cellToolbarLocation": "right"
+				"notebook.cellToolbarLocation": {
+					"default": "right"
+				}
 			},
 			"extensions": [
 				"ms-python.python",
@@ -28,7 +30,8 @@
 			]
 		}
 	},
-	"postCreateCommand": "pip install --upgrade pip setuptools wheel && pip install -r requirements.txt",
+	"postCreateCommand": "python -m pip install --upgrade pip setuptools wheel && python -m pip install -r requirements.txt",
+	"updateContentCommand": "python -m pip install -r requirements.txt",
 	"remoteUser": "vscode",
 	"forwardPorts": [
 		8888
