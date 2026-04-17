@@ -1,0 +1,42 @@
+{
+	"name": "SVI Analysis Project",
+	"image": "mcr.microsoft.com/devcontainers/python:3.10",
+	"features": {
+		"ghcr.io/devcontainers/features/git:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"python.defaultInterpreterPath": "/usr/local/bin/python",
+				"python.linting.enabled": true,
+				"python.linting.pylintEnabled": true,
+				"[python]": {
+					"editor.formatOnSave": false,
+					"editor.codeActionsOnSave": {
+						"source.organizeImports": true
+					}
+				},
+				"jupyter.kernels.filter": [],
+				"notebook.cellToolbarLocation": "right"
+			},
+			"extensions": [
+				"ms-python.python",
+				"ms-toolsai.jupyter",
+				"ms-toolsai.vscode-jupyter-cell-tags",
+				"ms-python.vscode-pylance",
+				"GitHub.copilot"
+			]
+		}
+	},
+	"postCreateCommand": "pip install --upgrade pip setuptools wheel && pip install -r requirements.txt",
+	"remoteUser": "vscode",
+	"forwardPorts": [
+		8888
+	],
+	"portsAttributes": {
+		"8888": {
+			"label": "Jupyter Server",
+			"onAutoForward": "notify"
+		}
+	}
+}

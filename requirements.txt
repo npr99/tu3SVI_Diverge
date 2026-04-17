@@ -1,0 +1,19 @@
+# Core Data Science Stack
+pandas>=1.3.0,<2.0
+numpy>=1.20.0
+matplotlib>=3.3.0
+scipy>=1.7.0
+
+# Geospatial Data Processing
+geopandas>=0.10.0,<1.0
+shapely>=1.7.0
+
+# Excel & File I/O
+openpyxl>=3.0.0
+pyarrow>=5.0.0
+
+# Jupyter (includes ipykernel automatically)
+jupyter>=1.0.0
+
+# create PDF codebook of clean data files
+pypdfcodebook
