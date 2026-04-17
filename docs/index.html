@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tu3SVI_Diverge</title>
+  <meta name="description" content="Documentation and replication guide for the tu3SVI_Diverge repository.">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <p class="eyebrow">Rosenheim et al. 2026</p>
+      <h1>Where Social Vulnerability Indices Diverge</h1>
+      <p class="lede">Documentation, data structure, and replication guidance for the Southeast Texas SVI comparison repository.</p>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="methods.html">Methods</a>
+        <a href="data.html">Data</a>
+        <a href="replication.html">Replication</a>
+        <a href="references.html">References</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <div>
+        <p class="section-label">Project overview</p>
+        <h2>Repository roles are intentionally separated.</h2>
+        <p>This repository compares how multiple Social Vulnerability Index implementations rank places in Southeast Texas and documents the decisions that shape local site selection. The codebase is organized around stable source data, reproducible posted analyses, and a separate working area for intermediate outputs.</p>
+      </div>
+      <div class="panel">
+        <h3>Repository structure</h3>
+        <ul>
+          <li><strong>Posted/</strong> contains the replication notebooks and curated outputs intended to be rerun by others.</li>
+          <li><strong>SourceData/</strong> contains stable input data used during replication and should remain unchanged.</li>
+          <li><strong>WorkNPR/</strong> is a working/output space and is excluded from version control.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="wrap card-grid">
+      <article class="card">
+        <p class="section-label">Methods</p>
+        <h3>Decision cascade framing</h3>
+        <p>See how the project compares CDC, HRRC, and SVInsight implementations and how the analysis moves from variable alignment to final site-selection implications.</p>
+        <a class="text-link" href="methods.html">Read methods</a>
+      </article>
+      <article class="card">
+        <p class="section-label">Data</p>
+        <h3>Stable source datasets</h3>
+        <p>Review the three source families, file roles, and expectations for what should and should not change during replication.</p>
+        <a class="text-link" href="data.html">Review data guide</a>
+      </article>
+      <article class="card">
+        <p class="section-label">Replication</p>
+        <h3>Run notebooks cleanly</h3>
+        <p>Use the posted notebooks, Codespaces setup, and folder conventions to reproduce the analysis without mixing in working artifacts.</p>
+        <a class="text-link" href="replication.html">Open replication steps</a>
+      </article>
+    </section>
+
+    <section class="wrap split-section">
+      <div>
+        <p class="section-label">Direct links</p>
+        <h2>Start from the repository, not from scratch.</h2>
+        <p>Use the repository assets that already exist rather than rebuilding the workflow manually.</p>
+      </div>
+      <div class="panel link-panel">
+        <a href="https://github.com/npr99/tu3SVI_Diverge">GitHub repository</a>
+        <a href="https://github.com/npr99/tu3SVI_Diverge/tree/main/Posted">Posted replication files</a>
+        <a href="https://github.com/npr99/tu3SVI_Diverge/tree/main/SourceData">SourceData inputs</a>
+        <a href="https://github.com/npr99/tu3SVI_Diverge/blob/main/README.md">Repository README</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer wrap">
+    <p>tu3SVI_Diverge GitHub Pages site</p>
+  </footer>
+</body>
+</html>

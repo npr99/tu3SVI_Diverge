@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Replication | tu3SVI_Diverge</title>
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <header class="subpage-header wrap">
+    <p class="eyebrow">Replication</p>
+    <h1>Reproduce the posted analysis</h1>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="methods.html">Methods</a>
+      <a href="data.html">Data</a>
+      <a href="replication.html" aria-current="page">Replication</a>
+      <a href="references.html">References</a>
+    </nav>
+  </header>
+
+  <main class="wrap prose">
+    <h2>Recommended workflow</h2>
+    <ol>
+      <li>Use the GitHub repository or Codespace configured from the repository root.</li>
+      <li>Keep <strong>SourceData/</strong> unchanged.</li>
+      <li>Open notebooks from <strong>Posted/</strong> for the replication path.</li>
+      <li>Allow generated exploratory outputs to live in <strong>WorkNPR/</strong> rather than the posted area.</li>
+    </ol>
+
+    <h2>Expected folders</h2>
+    <ul>
+      <li><strong>Posted/</strong>: curated notebooks and replication-facing outputs.</li>
+      <li><strong>SourceData/</strong>: fixed input files used during replication.</li>
+      <li><strong>WorkNPR/</strong>: working directory for transient outputs and development artifacts.</li>
+    </ul>
+
+    <h2>Codespaces note</h2>
+    <p>The repository includes development-container configuration and Python environment files so the posted notebooks can be opened directly in GitHub Codespaces. Use the repository root as the working directory to preserve relative paths to <strong>SourceData/</strong>.</p>
+
+    <h2>Suggested execution order</h2>
+    <ol>
+      <li>Review setup notebooks in <strong>SourceData/</strong> if you need provenance for harmonized inputs.</li>
+      <li>Run the SVI options and table notebooks in <strong>Posted/</strong>.</li>
+      <li>Continue through scatter figures, phase text, tables/figures, margin-of-error, and mapping notebooks.</li>
+    </ol>
+  </main>
+</body>
+</html>

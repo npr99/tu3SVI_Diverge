@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Methods | tu3SVI_Diverge</title>
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <header class="subpage-header wrap">
+    <p class="eyebrow">Methods</p>
+    <h1>Comparing how SVI choices diverge</h1>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="methods.html" aria-current="page">Methods</a>
+      <a href="data.html">Data</a>
+      <a href="replication.html">Replication</a>
+      <a href="references.html">References</a>
+    </nav>
+  </header>
+
+  <main class="wrap prose">
+    <p>This project studies where different Social Vulnerability Index implementations lead to different local conclusions. The comparison focuses on Southeast Texas and tracks how methodological choices affect rankings, variable interpretation, and site selection.</p>
+
+    <h2>SVI implementations compared</h2>
+    <ul>
+      <li><strong>CDC ATSDR SVI</strong> as the federal baseline for tract-level social vulnerability.</li>
+      <li><strong>HRRC SVI</strong> from the Texas Planning Atlas for regional tract and block-group measures.</li>
+      <li><strong>SVInsight</strong> as an academic implementation used for comparison and interpretation.</li>
+    </ul>
+
+    <h2>Analytic flow</h2>
+    <ol>
+      <li>Standardize variable names and align comparable measures across sources.</li>
+      <li>Build comparison tables describing variable coverage and correspondence.</li>
+      <li>Measure agreement and disagreement through correlation tables and scatter plots.</li>
+      <li>Interpret divergence through written phase summaries, margin-of-error checks, and mapping.</li>
+    </ol>
+
+    <h2>Repository implementation</h2>
+    <p>The notebook workflow is intentionally separated between stable inputs, posted replication notebooks, and working output space. That separation makes it easier to reproduce published results without mixing in transient files generated during exploratory work.</p>
+
+    <p><a class="text-link" href="replication.html">Continue to replication guidance</a></p>
+  </main>
+</body>
+</html>

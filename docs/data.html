@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data | tu3SVI_Diverge</title>
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <header class="subpage-header wrap">
+    <p class="eyebrow">Data</p>
+    <h1>Data sources and repository boundaries</h1>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="methods.html">Methods</a>
+      <a href="data.html" aria-current="page">Data</a>
+      <a href="replication.html">Replication</a>
+      <a href="references.html">References</a>
+    </nav>
+  </header>
+
+  <main class="wrap prose">
+    <h2>Stable inputs</h2>
+    <p><strong>SourceData/</strong> is the stable input layer for replication. It includes source CSVs, census geography files, setup notebooks, and utility code used to harmonize the different SVI sources.</p>
+
+    <h2>Source families</h2>
+    <ul>
+      <li><strong>CDC ATSDR</strong>: tract-level social vulnerability source files for Texas and the United States.</li>
+      <li><strong>HRRC / Texas Planning Atlas</strong>: regional tract and block-group vulnerability files for Texas.</li>
+      <li><strong>UT Preisser / SVInsight</strong>: academic SVI setup files and exports used for comparison.</li>
+      <li><strong>Census geography</strong>: supporting TIGER/Line geometry used in geographic analysis and mapping.</li>
+    </ul>
+
+    <h2>What should not change during replication</h2>
+    <ul>
+      <li>Raw files in <strong>SourceData/</strong> should remain fixed.</li>
+      <li>Replication notebooks in <strong>Posted/</strong> should be rerun, not casually overwritten.</li>
+      <li>Intermediate and exploratory output should go to <strong>WorkNPR/</strong>, which is ignored by Git.</li>
+    </ul>
+
+    <h2>Large-file note</h2>
+    <p>Some raw inputs are large enough to trigger GitHub warnings. Keep that in mind if you add more shapefiles or full national extracts; for future growth, consider Git LFS or external download instructions.</p>
+  </main>
+</body>
+</html>
