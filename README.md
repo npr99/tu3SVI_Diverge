@@ -13,3 +13,5 @@ Rosenheim, Nathanael, Lidia Mezei, Matthew Preisser, Patrick Bixler, Christa Bre
 Rosenheim, Nathanael, Lidia Mezei, Matthew Preisser, Patrick Bixler, Christa Brelsford, Paola Passalacqua, Michelle Meyer (2026). "Where Social Vulnerability Indices Diverge: Data and Replication Code", in Southeast Texas Urban Integrated Field Lab: Theme 3 Equity. DesignSafe-CI. DOI will appear after publication.
 
 **Funding** :This work was supported by the U.S. Department of Energy, Office of Science, Biological and Environmental Research Program's South-East Texas Urban Integrated Field Laboratory (https://setx-uifl.org/) under Award Number DE-SC0023216.
+
+**GitHub Repository**: https://github.com/npr99/tu3SVI_Diverge with documentation https://npr99.github.io/tu3SVI_Diverge/ 
