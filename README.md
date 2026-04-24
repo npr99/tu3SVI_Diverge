@@ -1,9 +1,15 @@
-# tu3SVI_Diverge
-Repository for data and replication code used in article Rosenheim et al. 2026 "Where Social Vulnerability Indices Diverge: Navigating the Decision Cascade for Local Site Selection" in Natural Hazards.
+**Where Social Vulnerability Indices Diverge**
 
-Project site: https://npr99.github.io/tu3SVI_Diverge/
+**Project Description** : This project provides social vulnerability datasets and replication code for the journal article Where Social Vulnerability Indices Diverge: Navigating the Decision Cascade for Local Site Selection (Rosenheim et al. 2026). The data and scripts are organized to support transparent, step-by-step comparison of index inputs, processing choices, and outputs at census tract and census block group scales. The dataset supports hazard research for coastal and inland communities exposed to hurricanes, extreme rainfall, and other multi-hazard conditions common in Southeast Texas. The research problem addressed by this archive is that different social vulnerability index methods can produce different vulnerability scores for the same places, which can change which communities are prioritized for study, outreach, monitoring, and investment. This archive is intended for researchers, planners, and students who need reusable social vulnerability data and reproducible workflows. Reuse benefits include computational reproducibility and extension to new study areas.
 
-Repository structure:
-- `Posted/` contains the replication-facing notebooks and curated outputs.
-- `SourceData/` contains stable source inputs used during replication.
-- `Work/` is a working/output area and is ignored by Git.
+**Journal Article Abstract** :Social vulnerability (SV) describes how socioeconomic characteristics influence individuals' or communities' ability to prepare for, withstand, and recover from hazardous events. Composite indices, which include multiple indicators to represent SV, are used across national, state, and local policy levels to guide decision makers in allocating limited resources. While several established SV indices (SVIs) exist for the United States, custom-made SVIs have been published across disciplines. Whether using a widely established SVI or custom-made, comprehensive documentation of the choices and assumptions made during the modeling process is often lacking. Often invisible to end-users these decisions have significant implications for SVI output, especially when applied to local site selection. Consequently, they influence resource allocation and our scientific understanding of the determinants, drivers, and consequences of disaster vulnerability. We addressed this issue by documenting and comparing the methodological choices, underlying assumptions, and their implications across multiple phases of SVI modeling for three existing indices. We provide guidance to help navigate the choices and assumptions through data selection and preparation (Phase 1), index construction (Phase 2), and validation and application (Phase 3). We argue that this process - a decision cascade in which methodological choices and assumptions influence subsequent phases of SVI modeling - explains differences in SVI scores. To demonstrate the implications based on our decision cascade framework, we applied our methodology to the selection of local study sites in Southeast Texas, where three SVIs diverged. Local knowledge was required to interpret divergent SVI results and inform site selection. 
+
+**Research Question** :What are the consequences of SVI methodological choices and assumptions for local site selection?
+
+**Required Citations**
+
+Rosenheim, Nathanael, Lidia Mezei, Matthew Preisser, Patrick Bixler, Christa Brelsford, Paola Passalacqua, Michelle Meyer (2026). Where Social Vulnerability Indices Diverge: Navigating the Decision Cascade for Local Site Selection. Natural Hazards. DOI forthcoming.
+
+Rosenheim, Nathanael, Lidia Mezei, Matthew Preisser, Patrick Bixler, Christa Brelsford, Paola Passalacqua, Michelle Meyer (2026). "Where Social Vulnerability Indices Diverge: Data and Replication Code", in Southeast Texas Urban Integrated Field Lab: Theme 3 Equity. DesignSafe-CI. DOI will appear after publication.
+
+**Funding** :This work was supported by the U.S. Department of Energy, Office of Science, Biological and Environmental Research Program's South-East Texas Urban Integrated Field Laboratory (https://setx-uifl.org/) under Award Number DE-SC0023216.

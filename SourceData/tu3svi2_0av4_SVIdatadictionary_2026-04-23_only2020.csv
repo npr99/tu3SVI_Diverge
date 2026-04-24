@@ -1,0 +1,91 @@
+﻿SVI,order,year,newvarname,gencat,gencatcode,comcat,comcatcode,theme,SVIcat,label,oldvarname,ACStable1v2,ACStable1v1,inverted,proportion,percent,dtype
+CDC,10010,2020,C202010010,Geocode,100,TRACT2020,10,NA,Geocode,Census Tract 11 Digit Geocode,FIPS,NA,NA,0,0,0,str
+CDC,10020,2020,C202010020,Denominator,100,Population,20,NA,Denominator,Population,E_TOTPOP,S0601,S0601,0,0,0,int64
+CDC,10030,2020,C202010030,Denominator,100,Households,30,NA,Denominator,Households,E_HH,DP02,DP02,0,0,0,int64
+CDC,10040,2020,C202010040,Denominator,100,Housing Units,40,NA,Denominator,Housing Units,E_HU,DP04,DP04,0,0,0,int64
+CDC,20010,2020,C202020010,Economic,200,Poverty,10,THEME1,Socioeconomic Status,Below 150% Poverty,EP_POV150,S1701,S1701,0,0,1,float
+CDC,20020,2020,C202020020,Economic,200,Unemployed,20,THEME1,Socioeconomic Status,Unemployed,EP_UNEMP,DP03,DP03,0,0,1,float
+CDC,20031,2020,C202020031,Economic,200,NA,31,THEME1,Socioeconomic Status,Housing Cost Burden,EP_HBURD,S2503,S2503,0,0,1,float
+CDC,21010,2020,C202021010,Education,210,No High School Diploma,10,THEME1,Socioeconomic Status,No High School Diploma,EP_NOHSDP,B06009,S0601,0,0,1,float
+CDC,20050,2020,C202020050,Economic,200,No Insurance,50,THEME1,Socioeconomic Status,No Health Insurance,EP_UNINSUR,S2701,S2701,0,0,1,float
+CDC,30010,2020,C202030010,Age,300,NA,10,THEME2,Household Characteristics,Aged 65 or Older,EP_AGE65,S0101,S0101,0,0,1,float
+CDC,33010,2020,C202033010,Child care,330,Single-parent,10,THEME2,Household Characteristics,Single-Parent Households,EP_SNGPNT,B11012,B11012,0,0,1,float
+CDC,33020,2020,C202033020,Child care,330,NA,20,THEME2,Household Characteristics,Aged 17 or Younger,EP_AGE17,B09001,B09001,0,0,1,float
+CDC,62010,2020,C202062010,Language,620,Language Needs,10,THEME2,Household Characteristics,English Language Proficiency,EP_LIMENG,B16005,B16005,0,0,1,float
+CDC,81010,2020,C202081010,Other,810,NA,10,THEME2,Household Characteristics,Civilian With a Disability,EP_DISABL,DP02,DP02,0,0,1,float
+CDC,60010,2020,C202060010,Race,600,Minority,10,THEME3,Racial & Ethnic Minority Status,Minority,EP_MINRTY,B01001H,B01001H,0,0,1,float
+CDC,70010,2020,C202070010,Housing Type,700,Mobile Homes,10,THEME4,Housing Type & Transportation,Mobile Homes,EP_MOBILE,DP04,DP04,0,0,1,float
+CDC,70020,2020,C202070020,Housing Type,700,Population in Group Quarters,20,THEME4,Housing Type & Transportation,Group Quarters,EP_GROUPQ,B26001,B26001,0,0,1,float
+CDC,70050,2020,C202070050,Housing Type,700,NA,50,THEME4,Housing Type & Transportation,Multi-Unit Structures,EP_MUNIT,DP04,DP04,0,0,1,float
+CDC,70055,2020,C202070055,Housing Type,700,NA,55,THEME4,Housing Type & Transportation,Crowding,EP_CROWD,DP04,DP04,0,0,1,float
+CDC,72010,2020,C202072010,Transportation,720,No Vehicle,10,THEME4,Housing Type & Transportation,No Vehicle,EP_NOVEH,DP04,DP04,0,0,1,float
+CDC,90011,2020,C202090011,Index Total,900,Percentile Rank (US),11,NA,Index Total,Overall Percentile Ranking for United States,RPL_THEMES_US,NA,NA,0,0,0,float
+CDC,90012,2020,C202090012,Index Total,900,Percentile Rank (TX),12,NA,Index Total,Overall Percentile Ranking for Texas,RPL_THEMES_TX,NA,NA,0,0,0,float
+CDC,90021,2020,C202090021,Index Total,900,Percentile Rank no Minority (US),21,NA,Index Total,Overall Percentile Ranking for United States without Minority,RPL_THEMES_v2_US,NA,NA,0,0,0,float
+CDC,90022,2020,C202090022,Index Total,900,Percentile Rank no Minority (TX),22,NA,Index Total,Overall Percentile Ranking for Texas without Minority,RPL_THEMES_v2_TX,NA,NA,0,0,0,float
+CDC,90031,2020,C202090031,Index Total,900,Percentile Rank no Minority (US),31,NA,Index Total,Overall Percentile Ranking for United States 2022-10-27 version,RPL_THEMES_v3_US,NA,NA,0,0,0,float
+CDC,90032,2020,C202090032,Index Total,900,Percentile Rank no Minority (TX),32,NA,Index Total,Overall Percentile Ranking for Texas without  2022-10-27 version,RPL_THEMES_v3_TX,NA,NA,0,0,0,float
+CDC,90091,2020,C202090091,Index Total,900,90th Percentile Rank Flags (US),91,NA,Index Total,Sum of Flags for Four Themes for United States,F_TOTAL_US,NA,NA,0,0,0,float
+CDC,90092,2020,C202090092,Index Total,900,90th Percentile Rank Flags (TX),92,NA,Index Total,Sum of Flags for Four Themes for Texas,F_TOTAL_TX,NA,NA,0,0,0,float
+CDC,91011,2020,C202091011,Index Total,910,SVI Quartile (US),11,NA,Index Total,SVI Quartile of RPL_THEMES_US,RPL_THEMES_US_sviq,NA,NA,0,0,0,str
+CDC,91012,2020,C202091012,Index Total,910,SVI Quartile (TX),12,NA,Index Total,SVI Quartile of RPL_THEMES_TX,RPL_THEMES_TX_sviq,NA,NA,0,0,0,str
+CDC,92023,2020,C202092023,Index Total,920,SVI CDC Match,23,NA,Index Total,Match Between SVIq,sviq_match,NA,NA,0,0,0,float
+HRRC,10010,2020,H202010010,Geocode,100,TRACT2020,10,NA,Geocode,Census Tract 11 Digit Geocode,GEOID_Tract,NA,NA,0,0,0,str
+HRRC,10011,2020,H202010011,Geocode,100,BG2020,11,NA,Geocode,Census Block Group 12 Digit Geocode,GEOID_BG,NA,NA,0,0,0,str
+HRRC,10020,2020,H202010020,Denominator,100,Population,20,NA,Denominator,Total Population,POPe,unknown,unknown,0,0,0,int64
+HRRC,10030,2020,H202010030,Denominator,100,Households,30,NA,Denominator,Total Households,HHe,unknown,unknown,0,0,0,int64
+HRRC,20010,2020,H202020010,Economic,200,Poverty,10,SHELTNEED,Shelter needs,Population in Poverty,POPVi,B17021,B17021,0,0,1,float
+HRRC,20012,2020,H202020012,Economic,200,NA,12,ELDERCARE,Eldercare needs,Elder Households in Poverty,ELDERHHPVi,B17017,B17017,0,0,1,float
+HRRC,20020,2020,H202020020,Economic,200,Unemployed,20,CIVICCAP,Civic capacity needs,Unemployed Workforce Population 16 Years Plus,UNEMPi,B23025,B23025,0,0,1,float
+HRRC,20040,2020,H202020040,Economic,200,NA,40,Other,Other,Median Home Value,MEDHVALe,B25077,B25077,1,0,0,int64
+HRRC,21010,2020,H202021010,Education,210,No High School Diploma,10,CIVICCAP,Civic capacity needs,No High School Diploma Population,NOHSi,B15003,B15003,0,0,1,float
+HRRC,30011,2020,H202030011,Age,300,NA,11,ELDERCARE,Eldercare needs,Elder Households,ELDERHHi,B17017,B17017,0,0,1,float
+HRRC,33010,2020,H202033010,Child care,330,Single-parent,10,CHILDCARE,Childcare needs,Single Parent Households,SPHWCi,B11005,B11005,0,0,1,float
+HRRC,33025,2020,H202033025,Child care,330,NA,25,CHILDCARE,Childcare needs,Children Under 5 Years Population,CHILDi,B01001,B01001,0,0,1,float
+HRRC,60010,2020,H202060010,Race,600,Minority,10,SHELTNEED,Shelter needs,Nonwhite Population,NONWHITEi,B03002,B03002,0,0,1,float
+HRRC,62010,2020,H202062010,Language,620,Language Needs,10,CIVICCAP,Civic capacity needs,Speak English Poorly or Not at All Population,SPENWi,B16004,B16004,0,0,1,float
+HRRC,70010,2020,H202070010,Housing Type,700,Mobile Homes,10,SHELTNEED,Shelter needs,Mobile Home Housing Units,MOBILEi,B25024,B25024,0,0,1,float
+HRRC,70020,2020,H202070020,Housing Type,700,Population in Group Quarters,20,SHELTNEED,Shelter needs,Population in Group Quarters,GQi,B09019,B09019,0,0,1,float
+HRRC,70030,2020,H202070030,Housing Type,700,Vacant Housing Units,30,SHELTNEED,Shelter needs,Vacant Housing Units,VACHUi,B25002,B25002,0,0,1,float
+HRRC,70040,2020,H202070040,Housing Type,700,Renter Households,40,SHELTNEED,Shelter needs,Renter Households,RENTERi,B25033,B25033,0,0,1,float
+HRRC,70070,2020,H202070070,Housing Type,700,NA,70,SHELTNEED,Shelter needs,Housing Units Older Than 20 Years,YEAR20i,B25034,B25034,0,0,1,float
+HRRC,72010,2020,H202072010,Transportation,720,No Vehicle,10,TRANSNEED,Transportation needs,Housing Units With No Vehicle,HUNOVELi,B25044,B25044,0,0,1,float
+HRRC,72020,2020,H202072020,Transportation,720,NA,20,TRANSNEED,Transportation needs,Public Transportation Dependent Households,PTDi,B08301,B08301,0,0,1,float
+HRRC,81011,2020,H202081011,Other,810,NA,11,Other,Other,No Broadband Internet Access Households,NOINTNETi,B28011,B28011,0,0,1,float
+HRRC,81030,2020,H202081030,Other,810,NA,30,Other,Other,Gross Rent Greater Than 30 Percent Income,RENTBURDEN30i,B25070,B25070,0,0,1,float
+HRRC,90093,2020,H202090093,Index Total,900,Percentile Rank (TX),93,NA,Index Total,Mean Percentile Rank of 2nd Order Indices Normalized Across Texas,SVIr,NA,NA,0,0,0,float
+HRRC,90012,2020,H202090012,Index Total,900,Percentile Rank (TX) v2,12,NA,Index Total,Statewide Percentile Rank,SVIp,NA,NA,0,0,0,float
+HRRC,91093,2020,H202091093,Index Total,910,SVI Quartile (TX),93,NA,Index Total,SVI Quartile of SVIr,SVIr_sviq,NA,NA,0,0,0,str
+HRRC,91012,2020,H202091012,Index Total,910,SVI Quartile (TX) v2,12,NA,Index Total,SVI Quartile of SVIq,SVIp_sviq,NA,NA,0,0,0,str
+HRRC,92021,2020,H202092021,Index Total,920,SVI HRRC Match,21,NA,Index Total,Match Between SVIq,sviq_match,NA,NA,0,0,0,float
+UTP,10010,2020,U202010010,Geocode,100,TRACT2020,10,NA,Geocode,Census Tract 11 Digit Geocode,GEOID20_Tract,NA,NA,0,0,0,str
+UTP,10011,2020,U202010011,Geocode,100,BG2020,11,NA,Geocode,Census Block Group 12 Digit Geocode,GEOID20_BG,NA,NA,0,0,0,str
+UTP,20010,2020,U202020010,Economic,200,Poverty,10,NA,Social status,Percent Poverty,QPOVTY,B17021,B17026,0,1,0,float
+UTP,20013,2020,U202020013,Economic,200,NA,13,NA,Elderly,Households with Social Security Income,QSSBEN,B19055,B19055,0,1,0,float
+UTP,20020,2020,U202020020,Economic,200,Unemployed,20,NA,Social status,Civil Unemployment Over 16 Years,QCVLUN,B23025,B23025,0,1,0,float
+UTP,20031,2020,U202020031,Economic,200,NA,31,NA,Economic,Per Capita Income Past 12 Months,PERCAP,B19301,B19301,1,0,0,int64
+UTP,20033,2020,U202020033,Economic,200,NA,33,NA,Economic,Percent Households Earning Over $200K,QRICH,B19001,B19001,1,1,0,float
+UTP,20040,2020,U202020040,Economic,200,NA,40,NA,Economic,Median Home Value,MDHSEVAL,B25077,B25077,1,0,0,int64
+UTP,20070,2020,U202020070,Economic,200,NA,70,NA,Economic,Median Gross Rent,MDGRENT,B25064,B25064,0,0,0,int64
+UTP,21010,2020,U202021010,Education,210,No High School Diploma,10,NA,Language and education,Population Over 25 Years With Less Than High School Diploma,QEDLESHI,B15003,B15003,0,1,0,float
+UTP,30020,2020,U202030020,Age,300,NA,20,NA,Elderly,Population Under 5 and Over 65,QAGEDEP,B01001,B01001,0,1,0,float
+UTP,30030,2020,U202030030,Age,300,NA,30,NA,NA,Median Age,MEDAGE,B01002,B01002,0,0,0,float
+UTP,33010,2020,U202033010,Child care,330,Single-parent,10,NA,Housing Status,Single Parent Households,QFAM,B11005,B11003,0,1,0,float
+UTP,60021,2020,U202060021,Race,600,NA,21,NA,Race,"Native American, not Hispanic",QNATIVE,B03002,B02001,0,1,0,float
+UTP,60022,2020,U202060022,Race,600,NA,22,NA,Race,"African American, not Hispanic",QBLACK,B03002,B02001,0,1,0,float
+UTP,60023,2020,U202060023,Race,600,NA,23,NA,Race,"Asian, not Hispanic",QASIAN,B03002,B02001,0,1,0,float
+UTP,60024,2020,U202060024,Race,600,NA,24,NA,Race,Hispanic,QHISPC,B03002,B03001,0,1,0,float
+UTP,62010,2020,U202062010,Language,620,Language Needs,10,NA,Language and education,Limited English as a Second Language,QESL,B16004,B16002,0,1,0,float
+UTP,65010,2020,U202065010,Gender,650,NA,10,NA,Gender,Population that is Female,QFEMALE,B01001,B01001,0,1,0,float
+UTP,65015,2020,U202065015,Gender,650,NA,15,NA,NA,Female Led Households,QFHH,B11001,B11001,0,1,0,float
+UTP,65017,2020,U202065017,Gender,650,NA,17,NA,Gender,Females in the Workforce,QFEMLBR,C24010,C24010,0,1,0,float
+UTP,70010,2020,U202070010,Housing Type,700,Mobile Homes,10,NA,NA,Mobile Homes,QMOHO,B25024,B25024,0,1,0,float
+UTP,70030,2020,U202070030,Housing Type,700,Vacant Housing Units,30,NA,NA,Vacant or Unoccupied Housing Units,QUNOCCHU,B25002,B25002,0,1,0,float
+UTP,70040,2020,U202070040,Housing Type,700,Renter Households,40,NA,NA,Renters,QRENTER,B25003,B25003,0,1,0,float
+UTP,70060,2020,U202070060,Housing Type,700,NA,60,NA,Housing Status,Average Household Size (People Per Unit),PPUNIT,B25010,B25010,0,0,0,float
+UTP,72010,2020,U202072010,Transportation,720,No Vehicle,10,NA,NA,No Vehicle Available,QNOAUTO,B25044,B25044,0,1,0,float
+UTP,20050,2020,U202020050,Economic,200,No Insurance,50,NA,Economic,Percent No Health Insurance,QNOHLTH,B27010,B27010,0,1,0,float
+UTP,81021,2020,U202081021,Other,810,NA,21,NA,NA,Percent Population in Service Jobs,QSERV,C24010,C24010,0,1,0,float
+UTP,81022,2020,U202081022,Other,810,NA,22,NA,NA,Percent Population in Construction Jobs,QEXTRCT,C24010,C24010,0,1,0,float
+UTP,90012,2020,U202090012,Index Total,900,Percentile Rank (TX),12,NA,Index Total,Factor Analysis Scaled 0 to 1 Normalized Across Texas,FA_SVI_Scaled_v2,NA,NA,0,0,0,float
+UTP,91012,2020,U202091012,Index Total,910,SVI Quartile (TX),12,NA,Index Total,SVI Quartile of SVI_Scaled_TX,FA_SVI_Scaled_sviq,NA,NA,0,0,0,str

@@ -3,12 +3,6 @@
 Work*/
 **/Work*/
 
-# Posted replication outputs
-/Posted/*/
-/Posted/*
-!/Posted/*.ipynb
-!/Posted/tu3svi4_6av1_Table1_2025-05-28_variables_to_compare.csv
-
 # Files not compatible with GitHub
 *.docx
 *.pptx
